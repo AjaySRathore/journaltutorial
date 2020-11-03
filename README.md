@@ -7,9 +7,9 @@ For more details follow the [Use Case](https://lucid.app/invitations/accept/ebb5
 
 ## Installation Instructions.
 These are the instructions for Linux OS. All commands are ran in linux shell.
-1. Clone the directory using `git clone <repo link>`
-2. Create virtualenv using `python3.8 -m venv <name of your env>`
-3. Activate virtualenv using `source <name of your env>/bin/activate`
+1. Make a new folder named JournalApp. Clone the app repository using `git clone https://github.com/AjaySRathore/journaltutorial.git`
+2. Create virtualenv using `python3.8 -m venv venv`
+3. Activate virtualenv using `source venv/bin/activate`
 4. Go to Directory journal/journal. This is the project settings directory. It should have a file name settings.py. Here create a new file named local_settings.py
 5. add one line in this file declaring a variable `SECRET_KEY = <50 char long random string with number, string literals, special characters>`. example `SECRET_KEY = "_bjg^rwo+ez^t%cx+mj6b#ms-v7#edru$#l96cxk($58xt7i*-"`
 6. Go one directory up with `cd ..` and migrate the models to your local database `./manage.py migrate`
