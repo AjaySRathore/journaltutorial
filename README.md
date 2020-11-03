@@ -1,11 +1,11 @@
-#Journal App
+# Journal App
 
 This app is a empty Django project based repository. It contains one app named **dailylog**. This app lets a user add daily logs. Logs are of three types:  Gratitude, Conclusion, Goal.
 
 User is able to see history of activities in weekly and monthly groups.
 For more details follow the [Use Case](https://lucid.app/invitations/accept/ebb5cec7-22d2-4bb0-8352-269905de93b6)
 
-##Installation Instructions.
+## Installation Instructions.
 These are the instructions for Linux OS. All commands are ran in linux shell.
 1. Clone the directory using `git clone <repo link>`
 2. Create virtualenv using `python3.8 -m venv <name of your env>`
@@ -17,7 +17,7 @@ These are the instructions for Linux OS. All commands are ran in linux shell.
 8. Go to http://127.0.0.1:8000/ or another link if specified in the terminal screen.
 
 
-##Instructions for making models.
+## Instructions for making models.
 These are the instructions for Linux OS.
 1. Open directory **journal/dailylog**. Find the file models.py.
 2. Write all related database related schema here using django ORM.
@@ -37,7 +37,7 @@ class Choice(models.Model):
 ```
 Read more information on [Django Fields References](https://docs.djangoproject.com/en/3.1/ref/models/fields/)
 
-##Instructions for adding a view.
+## Instructions for adding a view.
 There are the instructions for Linux OS.
 1. Open directory **journal/dailylog**. Find the file views.py.
 2. All the views that connect django templates with django Models should be added here.
@@ -61,7 +61,7 @@ def index(request):
 ```
 Learn more about [writing views](https://docs.djangoproject.com/en/3.1/topics/http/views/)
 
-##Instructions for adding a template and static files.
+## Instructions for adding a template and static files.
 1. Open directory **journal/dailylog/templates/dailylog**.
 2. Add all html templates here.
 3. Open directory **journal/dailylog/static/dailylog/styles**.
